@@ -17,7 +17,7 @@ const LongPulling = () => {
             await subscribe()
         } catch (e) {
             setTimeout(() => {
-                subscribe()
+                 subscribe()
             }, 500)
         }
     }
